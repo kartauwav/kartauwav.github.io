@@ -3,8 +3,17 @@
  <head>
   <meta charset="UTF-8"/>
   <title>Kartau website</title>
- </head>
- <body style="background-color:rgb(0, 68, 215);"></body>
+ </head>     
+ <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+ <style>
+   model-viewer{
+      width: 500px;
+      height: 500px;
+      margin: 0 auto;
+
+   }
+ </style>
+ <body style="background-color:rgb(55, 0, 255);"></body>
       <img src="header.png" 
          width="180" height="100" 
          alt="super gremlin"
@@ -18,5 +27,6 @@
          align="center">
          Im from Tartu, studying gd at EKA, producing musisc.</p>
       <a href="http://CsengeKK.github.io" align="center" style="color:rgb(255, 255, 255);">This is a link to Csenge´s website</a>
- </body>   
+      <model-viewer src="uuspea.gltf" auto-rotate ar ></model-viewer>
+   </body>   
 </html>
