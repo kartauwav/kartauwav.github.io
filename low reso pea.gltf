@@ -1,0 +1,112 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v1.4.40",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Curve.048",
+      "rotation": [
+        0.7071067690849304,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        16.010597229003906,
+        16.010597229003906,
+        16.010597229003906
+      ],
+      "translation": [
+        0,
+        -0.5423577427864075,
+        0
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "SVGMat",
+      "pbrMetallicRoughness": {}
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Curve.048",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 30574,
+      "max": [
+        0.15523992478847504,
+        0.006000100169330835,
+        -0.03307032957673073
+      ],
+      "min": [
+        0.014293731190264225,
+        -0.006000100169330835,
+        -0.1903110295534134
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 30574,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5123,
+      "count": 53364,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 366888,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 366888,
+      "byteOffset": 366888
+    },
+    {
+      "buffer": 0,
+      "byteLength": 106728,
+      "byteOffset": 733776
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "low reso pea_data.bin",
+      "byteLength": 840504
+    }
+  ]
+}

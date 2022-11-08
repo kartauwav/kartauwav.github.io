@@ -2,31 +2,43 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8"/>
-  <title>Kartau website</title>
- </head>     
- <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
- <style>
-   model-viewer{
-      width: 500px;
-      height: 500px;
-      margin: 0 auto;
+  <title>KARTAU ARCHIVES</title>
+ </head>   
+ <link rel="icon" type="image/x-icon" href="dwadw.ico">
 
+ <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+ 
+ <style>
+
+   model-viewer{
+      width: 400px;
+      height: 400px;
+      margin: 0 auto;
+      align:"middle"
+      
    }
  </style>
- <body style="background-color:rgb(55, 0, 255);"></body>
-      <img src="header.png" 
-         width="180" height="100" 
-         alt="super gremlin"
-         align="middle">  
-      <h1 align="center" 
-         style="color:rgb(255, 255, 255)">
-         Hi my name is Karl-Egert</h1>
+
+
+      </p>
       <p 
-         style="color:rgb(255, 255, 255);"
-         style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif" 
+         style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"
          align="center">
-         Im from Tartu, studying gd at EKA, producing musisc.</p>
-      <a href="http://CsengeKK.github.io" align="center" style="color:rgb(255, 255, 255);">This is a link to Csenge´s website</a>
-      <model-viewer src="uuspea.gltf" auto-rotate ar ></model-viewer>
-   </body>   
+         KARTAU ARCHIVES</p>
+         
+      
+      <model-viewer src="low reso pea.gltf" camera-controls exposure="0.5" auto-rotate ar >
+         <div class="progress-bar hide" slot="progress-bar">
+            <div class="update-bar"></div>
+        </div>
+        <button slot="ar-button" id="ar-button">
+         
+      </model-viewer>
+      
+
+      
+<body style="font-family:Arial, Helvetica, sans-serif">
+      
+
+
 </html>
